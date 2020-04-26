@@ -1,0 +1,303 @@
+macro "macro"
+	elem 
+		name = "CENTER+REP"
+		command = ".center"
+		is-disabled = false
+	elem 
+		name = "WEST"
+		command = "MoveWest"
+		is-disabled = false
+	elem 
+		name = "WEST+UP"
+		command = "StopWest"
+		is-disabled = false
+	elem 
+		name = "NORTH"
+		command = "MoveNorth"
+		is-disabled = false
+	elem 
+		name = "NORTH+UP"
+		command = "StopNorth"
+		is-disabled = false
+	elem 
+		name = "EAST"
+		command = "MoveEast"
+		is-disabled = false
+	elem 
+		name = "EAST+UP"
+		command = "StopEast"
+		is-disabled = false
+	elem 
+		name = "SOUTH"
+		command = "MoveSouth"
+		is-disabled = false
+	elem 
+		name = "SOUTH+UP"
+		command = "StopSouth"
+		is-disabled = false
+
+
+menu "menu"
+	elem 
+		name = "Archivo"
+		command = ""
+		category = ""
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem 
+		name = "&Opciones y mensajes...\tF1"
+		command = ".options"
+		category = "Archivo"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem 
+		name = "&Guardar Pantallazo...\tF2"
+		command = ".screenshot"
+		category = "Archivo"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+	elem 
+		name = "Salir"
+		command = ".quit"
+		category = "Archivo"
+		is-checked = false
+		can-check = false
+		group = ""
+		is-disabled = false
+		saved-params = "is-checked"
+
+
+window "default"
+	elem "default"
+		type = MAIN
+		pos = 0,0
+		size = 1272x632
+		anchor1 = none
+		anchor2 = none
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = #2d2d2d
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = none
+		drop-zone = false
+		right-click = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		on-size = ""
+		title = ""
+		titlebar = true
+		statusbar = false
+		can-close = true
+		can-minimize = true
+		can-resize = true
+		is-pane = false
+		is-minimized = false
+		is-maximized = false
+		can-scroll = none
+		icon = 'ICONOS\\LOGO.dmi'
+		image = ""
+		image-mode = stretch
+		keep-aspect = false
+		transparent-color = none
+		alpha = 255
+		macro = "macro"
+		menu = "menu"
+		on-close = ""
+	elem "label3"
+		type = LABEL
+		pos = 0,0
+		size = 880x21
+		anchor1 = 0,0
+		anchor2 = 69,3
+		font-family = "Verdana"
+		font-size = 0
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #2d2d2d
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = line
+		drop-zone = false
+		right-click = false
+		saved-params = ""
+		on-size = ""
+		text = "VERSION BETA"
+		image = ""
+		image-mode = center
+		keep-aspect = false
+		align = center
+		text-wrap = false
+	elem "label1"
+		type = LABEL
+		pos = 0,567
+		size = 880x21
+		anchor1 = 0,83
+		anchor2 = 69,86
+		font-family = "Verdana"
+		font-size = 0
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #2d2d2d
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = line
+		drop-zone = false
+		right-click = false
+		saved-params = ""
+		on-size = ""
+		text = "POKEMON EVOLUCION"
+		image = ""
+		image-mode = center
+		keep-aspect = false
+		align = center
+		text-wrap = false
+	elem "output2"
+		type = OUTPUT
+		pos = 0,588
+		size = 880x96
+		anchor1 = 0,86
+		anchor2 = 69,100
+		font-family = "Times New Roman"
+		font-size = 0
+		font-style = ""
+		text-color = #ffffff
+		background-color = #000000
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = line
+		drop-zone = false
+		right-click = false
+		saved-params = "max-lines"
+		on-size = ""
+		link-color = #0000ff
+		visited-color = #ff00ff
+		style = ""
+		enable-http-images = false
+		max-lines = 1000
+		image = ""
+	elem "info1"
+		type = INFO
+		pos = 880,0
+		size = 392x340
+		anchor1 = 69,0
+		anchor2 = 100,50
+		font-family = "Tahoma,Palatino Linotype"
+		font-size = 10
+		font-style = ""
+		text-color = #000000
+		background-color = #ffffff
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = line
+		drop-zone = true
+		right-click = false
+		saved-params = ""
+		on-size = ""
+		highlight-color = #00ff00
+		tab-text-color = #ffffff
+		tab-background-color = #4a4a4a
+		tab-font-family = "Tahoma,Palatino Linotype"
+		tab-font-size = 10
+		tab-font-style = ""
+		allow-html = true
+		multi-line = true
+		on-show = ""
+		on-hide = ""
+		on-tab = ""
+	elem "input1"
+		type = INPUT
+		pos = 880,661
+		size = 392x23
+		anchor1 = 69,97
+		anchor2 = 100,100
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = #4a4a4a
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = false
+		border = sunken
+		drop-zone = false
+		right-click = false
+		saved-params = ""
+		on-size = ""
+		command = "OOC"
+		multi-line = false
+		is-password = false
+		no-command = false
+	elem "CHAT2"
+		type = OUTPUT
+		pos = 880,340
+		size = 392x320
+		anchor1 = 69,50
+		anchor2 = 100,96
+		font-family = "Times New Roman,Palatino Linotype"
+		font-size = 9
+		font-style = ""
+		text-color = #ffffff
+		background-color = #000000
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = sunken
+		drop-zone = false
+		right-click = false
+		saved-params = "max-lines"
+		on-size = ""
+		link-color = #0000ff
+		visited-color = #ff00ff
+		style = ""
+		enable-http-images = false
+		max-lines = 1000
+		image = ""
+	elem "map"
+		type = MAP
+		pos = 0,20
+		size = 880x547
+		anchor1 = 0,3
+		anchor2 = 69,83
+		font-family = ""
+		font-size = 0
+		font-style = ""
+		text-color = #000000
+		background-color = none
+		is-visible = true
+		is-disabled = false
+		is-transparent = false
+		is-default = true
+		border = line
+		drop-zone = true
+		right-click = false
+		saved-params = "icon-size"
+		on-size = ""
+		icon-size = 32
+		text-mode = false
+		on-show = ""
+		on-hide = ""
+		style = ""
+

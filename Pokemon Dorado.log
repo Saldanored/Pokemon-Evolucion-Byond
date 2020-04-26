@@ -1,0 +1,21 @@
+Tue Feb 12 01:02:59 2013
+World opened on network port 1111.
+Welcome BYOND! (4.0 Public Version 498.1150)
+World opened on network port 1111.
+Tue Feb 12 02:08:31 2013
+World opened on network port 1111.
+World opened on network port 1111.
+BYOND Error: corrupt map data in world file
+World opened on network port 1111.
+Thu May 23 13:36:12 2013
+World opened on network port 1100.
+Welcome BYOND! (4.0 Public Version 498.1150)
+runtime error: Cannot read null.Mision2
+proc name: Entered (/turf/Spawns/Spawn122/Entered)
+  usr: null
+  src: Spawn122 (405,156,2) (/turf/Spawns/Spawn122)
+  call stack:
+Spawn122 (405,156,2) (/turf/Spawns/Spawn122): Entered(null, Spawner234122 (404,156,2) (/turf/Spawns/Spawner234122))
+Thu May 23 14:03:19 2013
+World opened on network port 1100.
+Welcome BYOND! (4.0 Public Version 498.1150)

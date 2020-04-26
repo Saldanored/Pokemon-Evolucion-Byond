@@ -1,0 +1,30 @@
+// BEGIN_INTERNALS
+// END_INTERNALS
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+#define FILE_DIR "ICONOS"
+#define FILE_DIR "ICONOS/ICONOS GRANDES"
+#define FILE_DIR "IMAGENES"
+#define FILE_DIR "IMAGENES/Nuevos"
+#define FILE_DIR "MAPA"
+#define FILE_DIR "MUSICA"
+#define FILE_DIR "Nuevo"
+#define FILE_DIR "VIEJO"
+// END_FILE_DIR
+// BEGIN_PREFERENCES
+#define DEBUG
+// END_PREFERENCES
+// BEGIN_INCLUDE
+#include "CODES\Pokeball2.dm"
+#include "CODES\Pokemon related stuff.dm"
+#include "CODES\Pokemon Starter Source.dm"
+#include "CODES\POKEMON.dm"
+#include "CODES\RANDOM CODE 2.dm"
+#include "CODES\RANDOM CODE.dm"
+#include "CODES\SPAWNS.dm"
+#include "CODES\TURF.dm"
+#include "CODES\Turf8.dm"
+#include "MAPA\Turf.dm"
+#include "MAPA\Test Map.dmm"
+#include "SKIN\Skin Definitiva.dmf"
+// END_INCLUDE
